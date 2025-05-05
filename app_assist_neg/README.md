@@ -11,7 +11,6 @@ O app permite conversas contínuas, ou seja, você pode ir complementando inform
 
 ## 📱 Imagens do aplicativo
 
-> (Inclua imagens na pasta `screenshots/` e substitua os nomes abaixo)
 
 ![Home](screenshots/home_screen.png)
 ![Análise](screenshots/analysis_screen.png)
