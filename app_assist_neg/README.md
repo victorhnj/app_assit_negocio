@@ -1,16 +1,79 @@
-# app_assist_neg
 
-A new Flutter project.
+# 📈 Assistente de Negócios
 
-## Getting Started
+**Autor:** Victor Hugo das Neves de Jesus
 
-This project is a starting point for a Flutter application.
+Aplicativo Flutter que fornece **análises de mercado inteligentes e sugestões de estratégias de negócios**.  
+Utiliza um LLM (Google Gemini 1.5 Pro) para interpretar dados fornecidos pelo usuário e oferecer insights personalizados.  
+O app permite conversas contínuas, ou seja, você pode ir complementando informações e o assistente irá adaptar suas sugestões.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Imagens do aplicativo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> (Inclua imagens na pasta `screenshots/` e substitua os nomes abaixo)
+
+![Home](screenshots/home_screen.png)
+![Análise](screenshots/analysis_screen.png)
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- **Flutter (Dart)** → Aplicativo mobile
+- **Gemini API (Google AI)** → LLM para análise e geração de estratégias
+- **HTTP package** → Comunicação com a API
+- **Material Design + Dark Theme** → Interface moderna e confortável para o usuário
+
+---
+
+## 📦 Instruções de instalação e execução
+
+1. Clone o projeto:
+
+```bash
+git clone https://github.com/victorhnj/app_assit_negocio.git
+cd app_assit_negocio
+```
+
+2. Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+3. Insira sua API Key do Gemini no arquivo:
+
+```
+lib/services/gemini_service.dart
+```
+
+4. Rode no emulador ou celular:
+
+```bash
+flutter run
+```
+
+---
+
+## 🧠 Como o LLM (Gemini) foi utilizado
+
+O aplicativo faz integração com a API do **Google Gemini (1.5 Pro)** para gerar sugestões e estratégias de negócios baseadas no que o usuário descreve.
+
+Funcionalidades do LLM:
+
+- Geração de sugestões personalizadas com base nos dados da empresa, localização e público-alvo.
+- Suporte a **conversas contínuas**: o usuário pode ir completando a análise e o assistente ajusta as respostas.
+- Linguagem natural e adaptativa para negócios.
+
+---
+
+## 📌 Sobre o projeto
+
+Este aplicativo foi desenvolvido para fins acadêmicos, com foco em:
+
+✅ Interfaces móveis organizadas e acessíveis  
+✅ Integração de IA para geração de conteúdo  
+✅ Experiência do usuário fluida com análise contínua
+
+---
